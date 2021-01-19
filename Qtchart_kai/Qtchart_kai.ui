@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Qtchart_kaiClass</class>
+ <widget class="QMainWindow" name="Qtchart_kaiClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>948</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>弹头再入飞行性能提升机动弹道计算软件</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <family>Arial Narrow</family>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>参数设置</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>1048</width>
+            <height>425</height>
+           </size>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>10</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QGroupBox::title{
+font-size: 13px;
+font-weight: bold;
+}</string>
+               </property>
+               <property name="title">
+                <string>可选项</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_2">
+                  <item row="13" column="0">
+                   <widget class="QLabel" name="label_5">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>5.弹道机动形式</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>comboBox_6</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="12" column="0">
+                   <spacer name="verticalSpacer_29">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="4" column="0">
+                   <widget class="QComboBox" name="comboBox_2">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="label_2">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>2.地球扁率</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>comboBox_2</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="6" column="0">
+                   <widget class="QLabel" name="label_3">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>3.弹头机动</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>comboBox_3</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_1">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>1.地球旋转</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>comboBox_1</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="8" column="0">
+                   <spacer name="verticalSpacer_28">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="5" column="0">
+                   <spacer name="verticalSpacer_27">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="7" column="0">
+                   <widget class="QComboBox" name="comboBox_3">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <spacer name="verticalSpacer_26">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QComboBox" name="comboBox_1">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="17" column="0">
+                   <widget class="QLabel" name="label_4">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>6.角度信息判断</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>comboBox_4</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="9" column="0">
+                   <widget class="QLabel" name="label_6">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>4.弹道功能</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>comboBox_5</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="16" column="0">
+                   <spacer name="verticalSpacer_30">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="10" column="0">
+                   <widget class="QComboBox" name="comboBox_4">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="14" column="0">
+                   <widget class="QComboBox" name="comboBox_5">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="18" column="0">
+                   <widget class="QComboBox" name="comboBox_6">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_11">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="title">
+                <string>发射设置</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <layout class="QGridLayout" name="gridLayout">
+                  <item row="3" column="0">
+                   <widget class="QLineEdit" name="launchPoint_Lati">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="9" column="0">
+                   <widget class="QLineEdit" name="separatePoint_Time">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="5" column="0">
+                   <widget class="QLineEdit" name="launchPoint_Long">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="0">
+                   <widget class="QLabel" name="label_9">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>发射点经度</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>launchPoint_Long</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="8" column="0">
+                   <widget class="QLabel" name="label_13">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>分离点时间</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>separatePoint_Time</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLineEdit" name="dirc_angle">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="6" column="0">
+                   <widget class="QLabel" name="label_10">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>发射点高程</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>launchPoint_H</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_40">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>射向角</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>dirc_angle</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="7" column="0">
+                   <widget class="QLineEdit" name="launchPoint_H">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_41">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>发射点纬度</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>launchPoint_Lati</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="title">
+                <string>弹头设置</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_4">
+                  <item row="12" column="1">
+                   <widget class="QLineEdit" name="teminalGuiad_Visual">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="16" column="1">
+                   <widget class="QLineEdit" name="angle_Glide">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="8" column="1">
+                   <widget class="QLineEdit" name="dipAngel">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QLineEdit" name="dantou_mass">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="10" column="1">
+                   <widget class="QLineEdit" name="load_MAX">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="12" column="0">
+                   <widget class="QLabel" name="label_29">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>末制导视线距</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>teminalGuiad_Visual</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="6" column="1">
+                   <widget class="QLineEdit" name="gama_MAX">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="14" column="0">
+                   <widget class="QLabel" name="label_30">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>平飞高度</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>horizonFlight_H</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="0">
+                   <widget class="QLabel" name="label_25">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>最大限制攻角</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>alpha_MAX</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_23">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>弹头质量</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>dantou_mass</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="6" column="0">
+                   <widget class="QLabel" name="label_26">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>最大限制侧滑角</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>gama_MAX</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="8" column="0">
+                   <widget class="QLabel" name="label_27">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>落地倾角</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>dipAngel</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="1">
+                   <widget class="QLineEdit" name="alpha_MAX">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="10" column="0">
+                   <widget class="QLabel" name="label_28">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>允许最大过载</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>load_MAX</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="16" column="0">
+                   <widget class="QLabel" name="label_31">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>滑翔设置攻角</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>angle_Glide</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_24">
+                    <property name="font">
+                     <font>
+                      <family>微软雅黑</family>
+                      <pointsize>9</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>弹头参考面积</string>
+                    </property>
+                    <property name="buddy">
+                     <cstring>dantou_area</cstring>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QLineEdit" name="dantou_area">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="14" column="1">
+                   <widget class="QLineEdit" name="horizonFlight_H">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <spacer name="verticalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Expanding</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="7" column="0">
+                   <spacer name="verticalSpacer_15">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="9" column="0">
+                   <spacer name="verticalSpacer_16">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="5" column="0">
+                   <spacer name="verticalSpacer_14">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="3" column="0">
+                   <spacer name="verticalSpacer_13">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="11" column="0">
+                   <spacer name="verticalSpacer_17">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="13" column="0">
+                   <spacer name="verticalSpacer_18">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="15" column="0">
+                   <spacer name="verticalSpacer_19">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_9">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <item>
+                 <layout class="QGridLayout" name="gridLayout_13">
+                  <item row="0" column="0">
+                   <widget class="QGroupBox" name="groupBox_13">
+                    <property name="title">
+                     <string/>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_12">
+                     <item row="5" column="0">
+                      <widget class="QLabel" name="label_17">
+                       <property name="font">
+                        <font>
+                         <family>微软雅黑</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>z分量</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>coorLaunch_Z</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="0">
+                      <widget class="QLabel" name="label_15">
+                       <property name="font">
+                        <font>
+                         <family>微软雅黑</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>x分量</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>coorLaunch_X</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="3" column="0">
+                      <widget class="QLabel" name="label_16">
+                       <property name="font">
+                        <font>
+                         <family>微软雅黑</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>y分量</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>coorLaunch_Y</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="5" column="1">
+                      <widget class="QLineEdit" name="coorLaunch_Z">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="3" column="1">
+                      <widget class="QLineEdit" name="coorLaunch_Y">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="1">
+                      <widget class="QLineEdit" name="coorLaunch_X">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="0" colspan="2">
+                      <widget class="QLabel" name="label_14">
+                       <property name="font">
+                        <font>
+                         <family>宋体</family>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>发射系位置</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="4" column="0">
+                      <spacer name="verticalSpacer_21">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item row="2" column="0">
+                      <spacer name="verticalSpacer_20">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item row="6" column="0">
+                      <spacer name="verticalSpacer_22">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QGroupBox" name="groupBox_12">
+                    <property name="title">
+                     <string/>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_5">
+                     <property name="sizeConstraint">
+                      <enum>QLayout::SetDefaultConstraint</enum>
+                     </property>
+                     <item row="3" column="0">
+                      <widget class="QLabel" name="label_20">
+                       <property name="font">
+                        <font>
+                         <family>微软雅黑</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>y分量</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>coorLaunch_Vy</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="5" column="1">
+                      <widget class="QLineEdit" name="coorLaunch_Vz">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="5" column="0">
+                      <widget class="QLabel" name="label_19">
+                       <property name="font">
+                        <font>
+                         <family>微软雅黑</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>z分量</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>coorLaunch_Vz</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="0" colspan="2">
+                      <widget class="QLabel" name="label_18">
+                       <property name="font">
+                        <font>
+                         <family>宋体</family>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>发射系速度</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="0">
+                      <widget class="QLabel" name="label_21">
+                       <property name="font">
+                        <font>
+                         <family>微软雅黑</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>x分量</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>coorLaunch_Vx</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="3" column="1">
+                      <widget class="QLineEdit" name="coorLaunch_Vy">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="1">
+                      <widget class="QLineEdit" name="coorLaunch_Vx">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="2" column="0">
+                      <spacer name="verticalSpacer_24">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item row="4" column="0">
+                      <spacer name="verticalSpacer_25">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QGroupBox" name="groupBox_8">
+                    <property name="styleSheet">
+                     <string notr="true">QGroupBox::title{
+font-size: 13px;
+font-weight: bold;
+}</string>
+                    </property>
+                    <property name="title">
+                     <string>打击目标设置</string>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_7">
+                     <item>
+                      <spacer name="verticalSpacer_11">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <layout class="QGridLayout" name="gridLayout_8">
+                       <item row="6" column="0">
+                        <widget class="QLabel" name="label_32">
+                         <property name="font">
+                          <font>
+                           <family>微软雅黑</family>
+                           <pointsize>9</pointsize>
+                           <weight>50</weight>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>目标射程</string>
+                         </property>
+                         <property name="buddy">
+                          <cstring>targetR</cstring>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="0">
+                        <widget class="QLineEdit" name="targetH">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="label_12">
+                         <property name="font">
+                          <font>
+                           <family>微软雅黑</family>
+                           <pointsize>9</pointsize>
+                           <weight>50</weight>
+                           <bold>false</bold>
+                          </font>
+                         </property>
+                         <property name="text">
+                          <string>目标点高程</string>
+                         </property>
+                         <property name="buddy">
+                          <cstring>targetH</cstring>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="7" column="0">
+                        <widget class="QLineEdit" name="targetR">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="8" column="0">
+                        <spacer name="verticalSpacer_12">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="3" column="0">
+                        <spacer name="verticalSpacer_7">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="4" column="0">
+                        <spacer name="verticalSpacer_8">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="0" column="0">
+                        <spacer name="verticalSpacer_23">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="1" column="2">
+                   <widget class="QGroupBox" name="groupBox_3">
+                    <property name="title">
+                     <string/>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_8">
+                     <item>
+                      <spacer name="verticalSpacer_10">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="label_33">
+                       <property name="font">
+                        <font>
+                         <family>宋体</family>
+                         <pointsize>9</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>仿真步长</string>
+                       </property>
+                       <property name="buddy">
+                        <cstring>simuStep</cstring>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="simuStep">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <spacer name="horizontalSpacer_8">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Expanding</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_9">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>10</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QGroupBox::title{
+font-size: 13px;
+font-weight: bold;
+}</string>
+             </property>
+             <property name="title">
+              <string>偏差</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <layout class="QGridLayout" name="gridLayout_6">
+                <item row="6" column="0">
+                 <widget class="QLineEdit" name="dipAngleErro">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                 </widget>
+                </item>
+                <item row="8" column="0">
+                 <widget class="QLabel" name="label_39">
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>9</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>密度相对偏差</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>denseErro</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_35">
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>9</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>速度偏差</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>velocityErro</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QLineEdit" name="velocityErro">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                 </widget>
+                </item>
+                <item row="10" column="0">
+                 <spacer name="verticalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="0" column="0">
+                 <spacer name="verticalSpacer_5">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="4" column="0">
+                 <spacer name="verticalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="7" column="0">
+                 <spacer name="verticalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="5" column="0">
+                 <widget class="QLabel" name="label_36">
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>9</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>倾角偏差</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>dipAngleErro</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QLabel" name="label_37">
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>9</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>轴向力相对偏差</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>axialForceErro</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="2">
+                 <widget class="QLineEdit" name="axialForceErro">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="2">
+                 <widget class="QLabel" name="label_38">
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>9</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>法向力相对偏差</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>normalForceErro</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="2">
+                 <widget class="QLineEdit" name="normalForceErro">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                 </widget>
+                </item>
+                <item row="9" column="0">
+                 <widget class="QLineEdit" name="denseErro">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Fixed</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox">
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="0" column="0" rowspan="6">
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <item>
+                 <widget class="QLabel" name="label_22">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>宋体</family>
+                    <pointsize>9</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>程序运行信息</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>plainTextEdit</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPlainTextEdit" name="plainTextEdit">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="clearPlain">
+                  <property name="text">
+                   <string>清空面板</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="0" column="1">
+               <widget class="QPushButton" name="pushButton">
+                <property name="text">
+                 <string>返回</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPushButton" name="InitProj">
+                <property name="text">
+                 <string>初始化</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QPushButton" name="checkButton">
+                <property name="text">
+                 <string>检查参数</string>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QPushButton" name="datProduce">
+                <property name="text">
+                 <string>生成文件</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QPushButton" name="datProduce_2">
+                <property name="text">
+                 <string>运行warhead</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QPushButton" name="pushButton_2">
+                <property name="text">
+                 <string>绘制图表</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>特征向量表</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QTableWidget" name="paraTable"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <attribute name="title">
+        <string>弹道曲线</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QChartView" name="graphicsView_11">
+          <property name="mouseTracking">
+           <bool>true</bool>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::StrongFocus</enum>
+          </property>
+          <property name="lineWidth">
+           <number>1</number>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QChartView" name="graphicsView_12"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QChartView" name="graphicsView_13"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QChartView" name="graphicsView_21"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QChartView" name="graphicsView_22"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QChartView" name="graphicsView_23"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>打靶分布</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_10">
+        <item row="1" column="0">
+         <widget class="QChartView" name="sccaterView_21"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QChartView" name="sccaterView_22"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QChartView" name="sccaterView_12"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QChartView" name="sccaterView_11"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>948</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Qtchart_kai.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>clearPlain</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>clearPlainMessage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>878</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>660</x>
+     <y>672</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_4</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>toNewTab()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>109</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>checkInput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>957</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>968</x>
+     <y>672</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>return2Menu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>976</x>
+     <y>452</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>754</x>
+     <y>672</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>InitProj</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>InitItem()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>995</x>
+     <y>491</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>832</x>
+     <y>672</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>datProduce_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>runExe()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1012</x>
+     <y>598</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>953</x>
+     <y>680</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>readLog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>966</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>948</x>
+     <y>687</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>datProduce</sender>
+   <signal>clicked()</signal>
+   <receiver>Qtchart_kaiClass</receiver>
+   <slot>writeTxt()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>997</x>
+     <y>547</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>917</x>
+     <y>672</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>InitItem()</slot>
+  <slot>clearPlainMessage()</slot>
+  <slot>checkInput()</slot>
+  <slot>writeTxt()</slot>
+  <slot>readLog()</slot>
+  <slot>showLog(QSring)</slot>
+  <slot>return2Menu()</slot>
+  <slot>runExe()</slot>
+  <slot>toNewTab()</slot>
+ </slots>
+</ui>

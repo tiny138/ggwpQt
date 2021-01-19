@@ -1,0 +1,14 @@
+﻿  Reading Qt configuration (C:/Qt/Qt5.11.2/5.11.2/msvc2017_64/bin/qmake)
+  uic mainMenu.ui
+  uic Qtchart_kai.ui
+  rcc Qtchart_kai.qrc
+  moc Qtchart_kai.h
+  moc mainMenu.h
+   RCC: Warning: No resources in 'C:\Users\Admin\Desktop\Qtchart_kai\Qtchart_kai\Qtchart_kai.qrc'.
+  mainMenu.cpp
+  Qtchart_kai.cpp
+  main.cpp
+  qrc_Qtchart_kai.cpp
+  moc_Qtchart_kai.cpp
+  moc_mainMenu.cpp
+Qt5Widgets.lib(Qt5Widgets.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“x86”冲突
